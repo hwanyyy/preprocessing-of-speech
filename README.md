@@ -1,7 +1,7 @@
 # preprocessing-of-speech
 VAD + resampling
 
-
+![](doc/record.gif)
 
 # Usage
 1. pip install -r requirements.txt
