@@ -15,7 +15,7 @@ Frequently related frequencies of speech exist in the lower bands (~8000Hz)
 
 ## VAD + Resampling
 
-<img src="docs/raw.png" width="50%"><img src="docs/VAD.png" width="50%">
+<img src="docs/raw.png" width="50%"><img src="docs/VAD_resampled.png" width="50%">
 
 ## Usage
 1. pip install -r requirements.txt
