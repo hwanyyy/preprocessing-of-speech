@@ -47,11 +47,7 @@ With single FFTs, short windows have good time resolution but lack frequency bre
 ***- The extracted feature is of much higher resolution, so it's expected to have a lot of information and actually helps to solve the confusion matrix problem for similar sounds.***
 ---------------------------
 ```
-<<<<<<< HEAD
 python3 high_resolution_mel_spectrogram.py [--opt OPT] [--path PATH]
-=======
-python3 high_resolution_mel_spectrum.py [--opt OPT] [--path PATH]
->>>>>>> 69ad20f84e7a0ac1f8f32dc35280ba67841e2434
 ```
 ```
 Preprocessing of Speech
