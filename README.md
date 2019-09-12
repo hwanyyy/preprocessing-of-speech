@@ -1,7 +1,7 @@
 # preprocessing-of-speech
 VAD + resampling
 
-![](doc/record.gif)
+![](docs/record.gif)
 
 # VAD (*Voice Activity Detection*)
 Although the words are short, there is a lot of silence in them. A decent VAD can reduce training size a lot, accelerating training speed significantly. Let's cut a bit of the file from the beginning and from the end. 
@@ -18,7 +18,7 @@ Code that runs FFTs of several window sizes, aligns their centers, and then appl
 
 With single FFTs, short windows have good time resolution but lack frequency breadth (no lower frequencies), whereas long windows have good frequency breadth but lack time precision (windows contain many wavelengths at higher frequencies). Here we combine FFTs of varying window length to tackle this.
 
-
+![](docs/High_Resolution_Mel_Spectrums.png)
 
 # Usage
 1. pip install -r requirements.txt
