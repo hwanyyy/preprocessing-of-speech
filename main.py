@@ -105,7 +105,7 @@ def main():
             loudness = meter.integrated_loudness(cutted_samples)
             loudness_normalized_audio = pyln.normalize.loudness(cutted_samples, loudness, -12.0)
             
-            wavfile.write(path + '/preprocessing_data/' + i, rate=sample_rate , data=loudness_normalized_audio)
+            wavfile.write(path + '/VAD_data/' + i, rate=sample_rate , data=loudness_normalized_audio)
             
         print('complete-!')
         
@@ -122,12 +122,12 @@ def main():
             loudness = meter.integrated_loudness(resampled)
             loudness_normalized_audio = pyln.normalize.loudness(resampled, loudness, -12.0)
             
-            wavfile.write(path + '/preprocessing_data/' + i, rate=new_sample_rate , data=loudness_normalized_audio)
+            wavfile.write(path + '/resampled_data/' + i, rate=new_sample_rate , data=loudness_normalized_audio)
             
         print('complete-!')
         
     else: 
-        os.mkdir(path + 'VAD_resampled_data')
+        os.mkdir(path + 'preprocessing_data')
         
         for i in tqdm(audio_list, ncols=100):
             sample_rate, samples = wavfile.read(str(path) + i)
