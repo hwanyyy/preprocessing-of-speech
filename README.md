@@ -1,3 +1,5 @@
+> # 🛠 *Fixing errors yet* 🛠
+
 # 1. preprocessing-of-speech
 VAD + Resampling
 
