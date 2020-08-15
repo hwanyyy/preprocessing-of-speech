@@ -1,9 +1,9 @@
 > # 🛠 *Fixing errors yet* 🛠
 
 # 1. preprocessing-of-speech
-VAD + Resampling
-
-![](docs/record.gif)
+VAD + Resampling  
+  
+  
 
 ## VAD (*Voice Activity Detection*)
 Although the words are short, there is a lot of silence in them. A decent VAD can reduce training size a lot, accelerating training speed significantly. Let's cut a bit of the file from the beginning and from the end. 
