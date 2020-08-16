@@ -1,4 +1,4 @@
-> # 🛠 *Fixing errors yet* 🛠
+> # 🛠 *Fixing version errors yet* 🛠
 
 # 1. preprocessing-of-speech
 VAD + Resampling  
