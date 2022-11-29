@@ -1,5 +1,3 @@
-> # 🛠 *Version upgrade planned* 🛠
-
 # 1. preprocessing-of-speech
 VAD + Resampling  
   
